@@ -3,6 +3,6 @@
 <c:set var="baseURL" value="${fn:replace(pageContext.request.requestURL, '', '')}"/>
 <html>
 <body>
-	<c:redirect url="${baseURL}/portal"/>
+	<c:redirect url="${baseURL}portal"/>
 </body>
 </html>
